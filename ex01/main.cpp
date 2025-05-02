@@ -6,7 +6,7 @@
 /*   By: ael-fagr <ael-fagr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/29 23:23:05 by ael-fagr          #+#    #+#             */
-/*   Updated: 2025/04/30 10:11:34 by ael-fagr         ###   ########.fr       */
+/*   Updated: 2025/05/01 20:08:55 by ael-fagr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,10 +15,9 @@
 int main()
 {
     try{
-
         Span sp = Span(5);
-        sp.addNumber(6);
         sp.addNumber(3);
+        sp.addNumber(9);
         sp.addNumber(17);
         sp.addNumber(9);
         sp.addNumber(11);
